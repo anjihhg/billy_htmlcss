@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="animation.css"
+    />
+    <script src="main.js"></script>
+    <style>
+      body {
+        padding: 24px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 24px;
+        box-sizing: border-box;
+        background-color: #485861;
+      }
+
+      .text-area {
+        margin-top: 192px;
+      }
+
+      .title {
+        margin-bottom: 12px;
+      }
+
+      sup {
+        font-size: 10px;
+      }
+
+      .line {
+        width: 32px;
+        height: 1px;
+        border-bottom: 1px solid #ffe6cf;
+        margin: 32px 0;
+        opacity: 0.3;
+      }
+
+      .content {
+        font-size: 16px;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="issue.html"><img src="img/icon/arrow-back.svg"/></a>
+      <img src="img/icon/like.svg" />
+    </header>
+
+    <div class="text-area">
+      <h1 class="title stagger-item">Issues <sup>1</sup></h1>
+      <p class="stagger-item">
+        We’ll make a mobile magazine <br />
+        using html, css only.
+      </p>
+    </div>
+    <div class="line stagger-item"></div>
+    <p class="content stagger-item">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+      as opposed to using 'Content here, content here', making it look like
+      readable English. Many desktop publishing packages and web page editors
+      now use Lorem Ipsum as their default model text, and a search for 'lorem
+      ipsum' will uncover many web sites still in their infancy. Various
+      versions have evolved over the years, sometimes by accident, sometimes on
+      purpose (injected humour and the like). Where does it come from? Contrary
+      to popular belief, Lorem Ipsum is not simply random text. It has roots in
+      a piece of classical Latin literature from 45 BC, making it over 2000
+      years old. Richard
+    </p>
+
+    <nav class="gnb">
+      <a href="index.html" class="cover mouse-effect">
+        <img src="img/icon/cover.svg" />
+      </a>
+      <a href="issue.html" class="issue mouse-effect active">
+        <img src="img/icon/issue.svg" />
+      </a>
+      <a href="like.html" class="like mouse-effect">
+        <img src="img/icon/like.svg" />
+      </a>
+      <a href="my.html" class="my mouse-effect">
+        <img src="img/icon/more.svg" />
+      </a>
+    </nav>
+  </body>
+</html>

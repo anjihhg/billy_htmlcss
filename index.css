@@ -1,0 +1,125 @@
+@keyframes circleShow1 {
+  from {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes circleShow2 {
+  from {
+    opacity: 0;
+    transform: translateX(-86px) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes circleShow3 {
+  from {
+    opacity: 0;
+    transform: translateX(-120px) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.text-area {
+  margin-top: 90px;
+  margin-left: 24px;
+}
+
+.text-area h1 {
+  margin-bottom: 22px;
+  animation: showText 1s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.desc {
+  animation: showText 1s;
+  animation-delay: 0.12s;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation-fill-mode: both;
+}
+
+.line {
+  width: 46px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top: -7px;
+  background-color: #ffe6cf;
+  opacity: 0.2;
+}
+
+.volume {
+  margin-bottom: 85px;
+}
+
+#circle-wrapper {
+  position: relative;
+  margin-left: 24px;
+  margin-top: 42px;
+  height: 246px;
+}
+
+.circle {
+  width: 246px;
+  height: 246px;
+  border-radius: 50%;
+  position: absolute;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.circle:nth-child(1) {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  animation: circleShow1 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.circle:nth-child(2) {
+  background-color: #ffc000;
+  left: 82px;
+  animation: circleShow2 0.5s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+}
+
+.circle:nth-child(3) {
+  background-color: #fedd15;
+  left: 164px;
+  animation: circleShow3 0.5s;
+  animation-delay: 0.2s;
+  animation-fill-mode: both;
+  top: 0;
+}
+
+#badge {
+  background-color: #ffc000;
+  width: 56px;
+  height: 56px;
+  color: #485861;
+  margin-left: 24px;
+  padding-left: 13px;
+  padding-top: 18px;
+  font-size: 9px;
+  line-height: 11px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  right: 24px;
+  font-weight: bold;
+  animation: slideDown 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}

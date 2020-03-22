@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/chevron_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="10 6 8.59 7.41 13.17 12 8.59 16.59 10 18 16 12"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-341.000000, -391.000000)">
+            <g id="mycell" transform="translate(22.000000, 388.000000)">
+                <g id="ic/chevron_right" transform="translate(319.000000, 3.000000)">
+                    <g id="ic_chevron_right_24px">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Path"></g>
+                        <g id="c/base" mask="url(#mask-2)" fill="#FFE6CF">
+                            <rect id="Shape" x="0" y="0" width="24" height="24"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

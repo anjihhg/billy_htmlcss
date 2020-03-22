@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>issue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,6 L2,6 L2,20 C2,21.1 2.9,22 4,22 L18,22 L18,20 L4,20 L4,6 Z M20,2 L8,2 C6.9,2 6,2.9 6,4 L6,16 C6,17.1 6.9,18 8,18 L20,18 C21.1,18 22,17.1 22,16 L22,4 C22,2.9 21.1,2 20,2 Z M19,11 L9,11 L9,9 L19,9 L19,11 Z M15,15 L9,15 L9,13 L15,13 L15,15 Z M19,7 L9,7 L9,5 L19,5 L19,7 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-292.000000, -242.000000)">
+            <g id="Tab-bar" transform="translate(163.000000, 218.000000)">
+                <g id="menu-item-copy" transform="translate(94.000000, 0.000000)">
+                    <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="93.75" height="72"></rect>
+                    <g id="ic/library_books" transform="translate(35.000000, 24.000000)">
+                        <g id="ic_library_books_24px">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Shape" fill-rule="nonzero"></g>
+                            <g id="c/base" mask="url(#mask-2)" fill="#FFE6CF">
+                                <rect id="Shape" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,104 @@
+/* 아래에서 위로 나타나는 애니메이션 */
+@keyframes showItem {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+    color: aqua;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.stagger-item {
+  animation: showItem 0.5s;
+  animation-fill-mode: both;
+}
+
+.stagger-item:nth-child(1) {
+  animation-delay: 0.07s;
+}
+.stagger-item:nth-child(2) {
+  animation-delay: 0.14s;
+}
+.stagger-item:nth-child(3) {
+  animation-delay: 0.21s;
+}
+.stagger-item:nth-child(4) {
+  animation-delay: 0.28s;
+}
+.stagger-item:nth-child(5) {
+  animation-delay: 0.35s;
+}
+
+/* --- 아이템이 오른쪽에서 나타나는 애니메이션  */
+/* issue.html에서 swiper아이템에 적용함 */
+/* like.html의 아이템에 적용함 */
+@keyframes showItemFromRight {
+  from {
+    transform: translateX(30px) scaleX(1.1);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+/* delay를 새롭게 설정해주지 않고 stagger-items의 nth-child속성을 이용하기 위해 stagger-item이름에 right를 추가로 붙여주는 경우로 설정 */
+
+/* "stagger-item right"라는 클래스 이름을 가진 요소를 선택 */
+.stagger-item.right {
+  animation-name: showItemFromRight;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  /* animation을 사용하지 않고 name과 duration을 따로 적어주는 이유는 animation속성을 이용하면 delay와 같은 속성들이 덮어씌여지기 때문입니다. */
+}
+
+/* like.html페이지의 search bar 애니메이션  */
+/* index.html페이지의 badge 애니메이션 */
+@keyframes slideDown {
+  from {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes showPopup {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

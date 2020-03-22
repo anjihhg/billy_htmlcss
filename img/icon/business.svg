@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>business</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,4 L14,4 L14,2 C14,0.89 13.11,0 12,0 L8,0 C6.89,0 6,0.89 6,2 L6,4 L2,4 C0.89,4 0.01,4.89 0.01,6 L0,17 C0,18.11 0.89,19 2,19 L18,19 C19.11,19 20,18.11 20,17 L20,6 C20,4.89 19.11,4 18,4 Z M12,4 L8,4 L8,2 L12,2 L12,4 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-22.000000, -516.000000)">
+            <g id="mycell-copy-2" transform="translate(22.000000, 516.000000)">
+                <g id="ic/work">
+                    <g id="ic_work_24px" transform="translate(2.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Shape" fill-rule="nonzero"></g>
+                        <g id="c/base" mask="url(#mask-2)" fill="#FFE6CF">
+                            <g transform="translate(-2.000000, -2.000000)" id="Shape">
+                                <rect x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
